@@ -1,0 +1,13 @@
+body{
+    background:url('https://static3.scirra.net/images/newstore/products/2688/dark%20fantasy%20720x320.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-size:18pt;
+    overflow:hidden;
+}
+.player1Stats{
+    color:white;
+}
+.life, .mana{
+    max-width:2.2rem;
+}
