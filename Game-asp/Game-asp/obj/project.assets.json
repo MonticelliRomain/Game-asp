@@ -12825,23 +12825,31 @@
     ]
   },
   "packageFolders": {
-    "/home/romain/.nuget/packages/": {},
+    "/home/vadim/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/home/romain/Projects/game-asp/Game-asp/Game-asp/Game-asp.csproj",
       "projectName": "Game-asp",
       "projectPath": "/home/romain/Projects/game-asp/Game-asp/Game-asp/Game-asp.csproj",
       "packagesPath": "/home/romain/.nuget/packages/",
       "outputPath": "/home/romain/Projects/game-asp/Game-asp/Game-asp/obj/",
+=======
+      "projectUniqueName": "/home/vadim/Documents/game-asp/Game-asp/Game-asp/Game-asp.csproj",
+      "projectName": "Game-asp",
+      "projectPath": "/home/vadim/Documents/game-asp/Game-asp/Game-asp/Game-asp.csproj",
+      "packagesPath": "/home/vadim/.nuget/packages/",
+      "outputPath": "/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/",
+>>>>>>> ec7ffa675b9cd5a75da18dc0c2d8b84bb1a8db5a
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/romain/.config/NuGet/NuGet.Config"
+        "/home/vadim/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
