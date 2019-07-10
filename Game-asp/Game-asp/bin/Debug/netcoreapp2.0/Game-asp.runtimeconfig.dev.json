@@ -1,13 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< HEAD
       "/home/romain/.dotnet/store/|arch|/|tfm|",
       "/home/romain/.nuget/packages",
-=======
-      "/home/vadim/.dotnet/store/|arch|/|tfm|",
-      "/home/vadim/.nuget/packages",
->>>>>>> ec7ffa675b9cd5a75da18dc0c2d8b84bb1a8db5a
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ]
   }

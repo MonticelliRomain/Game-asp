@@ -43,9 +43,6 @@ namespace Game_asp
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-                routes.MapRoute(
-                    name: "Fight",
-                    template: "{controller=Fight}/{action=Fight}/{id?}");
             });
         }
     }

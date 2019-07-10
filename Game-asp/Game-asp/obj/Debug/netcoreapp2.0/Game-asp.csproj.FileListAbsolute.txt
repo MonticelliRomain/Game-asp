@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /home/romain/Projects/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.deps.json
 /home/romain/Projects/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.runtimeconfig.json
 /home/romain/Projects/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.runtimeconfig.dev.json
@@ -10,16 +9,3 @@
 /home/romain/Projects/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.AssemblyInfo.cs
 /home/romain/Projects/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.dll
 /home/romain/Projects/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.pdb
-=======
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.deps.json
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.runtimeconfig.json
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.runtimeconfig.dev.json
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.dll
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/bin/Debug/netcoreapp2.0/Game-asp.pdb
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.csprojAssemblyReference.cache
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.csproj.CoreCompileInputs.cache
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.AssemblyInfoInputs.cache
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.AssemblyInfo.cs
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.dll
-/home/vadim/Documents/game-asp/Game-asp/Game-asp/obj/Debug/netcoreapp2.0/Game-asp.pdb
->>>>>>> ec7ffa675b9cd5a75da18dc0c2d8b84bb1a8db5a
