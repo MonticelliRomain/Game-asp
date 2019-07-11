@@ -12,7 +12,7 @@ namespace Game_asp.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(new Game(2));
         }
 
         public IActionResult About()

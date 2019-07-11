@@ -14,5 +14,15 @@
 
   <ItemGroup>
     <Folder Include="Views\Fight\" />
+    <Folder Include="Skills\" />
+    <Folder Include="Characters\" />
+    <Folder Include="Game\" />
+    <Folder Include="Team\" />
+    <Folder Include="CharacterManager\" />
+    <Folder Include="Player\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\elfique2.mp3" />
+    <Content Remove="wwwroot\elfique3.mp3" />
   </ItemGroup>
 </Project>
