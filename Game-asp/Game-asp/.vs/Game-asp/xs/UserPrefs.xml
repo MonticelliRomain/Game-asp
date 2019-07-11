@@ -1,32 +1,11 @@
 ﻿<Properties StartupConfiguration="{F0B21987-5372-4289-80ED-FBDC9AB71BCF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Game.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/main.js">
     <Files>
-      <File FileName="Startup.cs" Line="48" Column="63" />
-      <File FileName="Controllers/HomeController.cs" Line="15" Column="39" />
-      <File FileName="Controllers/FightController.cs" Line="3" Column="19" />
-      <File FileName="Views/Home/Index.cshtml" Line="13" Column="39" />
-      <File FileName="Views/Fight/Fight.cshtml" Line="17" Column="1" />
-      <File FileName="wwwroot/css/fight.css" Line="13" Column="2" />
-      <File FileName="wwwroot/css/main.css" Line="251" Column="2" />
-      <File FileName="wwwroot/js/main.js" Line="6" Column="5" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="22" Column="22" />
-      <File FileName="CharacterManager/CharacterManager.cs" Line="4" Column="19" />
-      <File FileName="Characters/Character.cs" Line="4" Column="19" />
-      <File FileName="Characters/Elf.cs" Line="4" Column="19" />
-      <File FileName="Characters/Magician.cs" Line="4" Column="19" />
-      <File FileName="Characters/Warrior.cs" Line="4" Column="19" />
-      <File FileName="Game/Game.cs" Line="3" Column="19" />
-      <File FileName="Player/Player.cs" Line="3" Column="19" />
-      <File FileName="Skills/Barronage.cs" Line="2" Column="19" />
-      <File FileName="Skills/Black_Hole.cs" Line="2" Column="19" />
-      <File FileName="Skills/Deep_Arrow.cs" Line="2" Column="19" />
-      <File FileName="Skills/Hellfire.cs" Line="2" Column="19" />
-      <File FileName="Skills/Skill.cs" Line="2" Column="19" />
-      <File FileName="Skills/Smooth_Rain.cs" Line="2" Column="19" />
-      <File FileName="Skills/Spin_To_Win.cs" Line="2" Column="19" />
-      <File FileName="Team/Team.cs" Line="3" Column="19" />
-      <File FileName="Controllers/CharacterController.cs" Line="1" Column="1" />
       <File FileName="Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="13" Column="19" />
+      <File FileName="Game/Game.cs" Line="10" Column="16" />
+      <File FileName="Controllers/HomeController.cs" Line="14" Column="10" />
+      <File FileName="wwwroot/js/main.js" Line="6" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,8 +13,14 @@
           <Node name="Game-asp" expanded="True">
             <Node name="Game-asp" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Game" expanded="True">
-                <Node name="Game.cs" selected="True" />
+              <Node name="Game" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True">
+                  <Node name="main.js" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

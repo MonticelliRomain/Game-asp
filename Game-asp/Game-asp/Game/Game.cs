@@ -7,7 +7,7 @@ namespace Game_asp
     {
         private List<Team> teams;
         private bool gameOver;
-        private int nbOfPlayers;
+        public int nbOfPlayers;
 
         public Game(int nbOfPlayers)
         {
