@@ -16,6 +16,7 @@
         <img class="characterRight" src="https://img.pngio.com/dark-souls-ii-warriorpng-dark-souls-png-579_615.png"/>
         <img class="magicianChosen" src="https://www.freepngimg.com/thumb/wizard/3-2-wizard-picture.png"/>
         <img class="warriorChosen" src="https://www.stickpng.com/assets/images/5a0587ef9cf05203c4b603d1.png"/>
+       
         <img class="elfChosen" src="https://i.pinimg.com/originals/57/bd/e1/57bde151a4e8ab72632b46cbc1fbab4c.png"/>
         <div class="container">
             <div class="chose">  
@@ -32,6 +33,13 @@
                     <li class="magician">Magician</li>
                     <li></li>                    
                     <li class="elf">Elf</li>
+                     <script>
+                        document.querySelector(".elf").addEventListener("click", () => {
+                            
+                            @{Model.GetTeams()[0].GetPlayers().Add(new Player(new Elf(), 0));}
+                            alert(@Model.GetTeams()[0].GetPlayers()[0].GetCharacter().GetHealth());
+                        });
+                     </script>
                     <li></li>
                     <li class="warrior">Warrior</li>
                 </ul>

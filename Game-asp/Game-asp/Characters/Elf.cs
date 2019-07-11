@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Game_asp
 {
-    class Elf : Character
+    public class Elf : Character
     {
         public Elf() : base(90, 75, "Elf")
         {
