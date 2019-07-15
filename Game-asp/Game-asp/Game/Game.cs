@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+
 namespace Game_asp
 {
-
     public class Game
     {
         private List<Team> teams;

@@ -12,7 +12,10 @@ namespace Game_asp.Controllers
     {
         public IActionResult Index()
         {
-            return View(new Game(2));
+            CharacterManager.Instance.Register<Magician>("magician");
+            CharacterManager.Instance.Register<Warrior>("warrior");
+            CharacterManager.Instance.Register<Elf>("elf");
+            return View(GameManager.Instance.AddGame(new Game(2)));
         }
 
         public IActionResult About()

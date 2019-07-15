@@ -1,7 +1,15 @@
-﻿@model Game_asp.Game
+﻿@model System.Int32
 @{
     ViewData["Title"] = "Home Page";
+    
 }
+<script>
+    let i = 1;
+    let team = 0;
+    let players = 2;
+    let id = @Model;
+    console.log(id);
+</script>
 
 <html>
     <head>
@@ -10,7 +18,6 @@
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     </head>
     <body class="body">
-        <p> @Model.nbOfPlayers </p>
         <div class="body2"></div>
         <div class="bckgChosen"></div>
         <img class="characterRight" src="https://img.pngio.com/dark-souls-ii-warriorpng-dark-souls-png-579_615.png"/>
@@ -32,17 +39,60 @@
                 <h1 class="chooseHero2">Player2, choose Your Class</h1> 
                 <ul>
                     <li class="magician">Magician</li>
+                    <script>
+                        document.querySelector(".magician").addEventListener("click", () => {
+                            
+                            
+                            if(i > (players / 2)) {
+                                team = 1;
+                            }
+                            
+                            var sendstr ="/"+ id +"/" + players + "/" + i + "/" + "magician";
+                            var ajax = new XMLHttpRequest();
+                            ajax.open('POST', "/api/Admin/Post" + sendstr, true);
+     
+                   
+                            
+                                             
+                            i = i + 1;
+                        });
+                     </script>
                     <li></li>                    
                     <li class="elf">Elf</li>
                      <script>
-                        document.querySelector(".elf").addEventListener("click", () => {
+                       document.querySelector(".elf").addEventListener("click", () => {
                             
-                            @{Model.GetTeams()[0].GetPlayers().Add(new Player(new Elf(), 0));}
-                            alert(@Model.GetTeams()[0].GetPlayers()[0].GetCharacter().GetHealth());
+                            
+                            if(i > (players / 2)) {
+                                team = 1;
+                            }
+                            
+                            var sendstr ="/"+ id +"/" + players + "/" + i + "/" + "elf";
+                            var ajax = new XMLHttpRequest();
+                            ajax.open('POST', "/api/Admin/Post" + sendstr, true);
+                           
+                                             
+                            i = i + 1;
                         });
-                     </script>
+                    </script>
                     <li></li>
                     <li class="warrior">Warrior</li>
+                    <script>
+                        document.querySelector(".warrior").addEventListener("click", () => {
+                            
+                            
+                            if(i > (players / 2)) {
+                                team = 1;
+                            }
+                            
+                            var sendstr ="/"+ id +"/" + players + "/" + i + "/" + "warrior";
+                            var ajax = new XMLHttpRequest();
+                            ajax.open('POST', "/api/Admin/Post" + sendstr, true);
+                           
+                                             
+                            i = i + 1;
+                        });
+                     </script>
                 </ul>
                 </div>
                 <div class="magicianSpecs">
