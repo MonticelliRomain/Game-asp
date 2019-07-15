@@ -8,7 +8,7 @@
 
 The inner workings of the game are the same as the console one but as a web version.
 
-## Installation (if applicable)
+## Installation
 
 To install it you just need something which can runs aspnet core then just clone the repository and run the solution.
 
